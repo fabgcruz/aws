@@ -1,2 +1,2 @@
 # aws
-aws samples
+Some aws code examples
