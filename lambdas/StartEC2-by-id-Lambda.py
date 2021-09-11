@@ -1,7 +1,7 @@
 import boto3
 
-region = 'sa-east-1'
-instances = ['REDACTED-INSTANCE-ID']
+region = 'REGION'
+instances = ['Instance ID']
 
 def lambda_handler(event, context):
     
