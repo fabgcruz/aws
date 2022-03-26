@@ -42,7 +42,7 @@ arn:aws:cloudformation:us-east-1:199337252292:stack/Marjan-Quicksight-Stack-Chil
 ## Usage
 
 ```
-delete-stack.sh
+./delete-stack.sh
 ```
 
 ## Contributing
