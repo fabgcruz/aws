@@ -42,7 +42,7 @@ arn:aws:cloudformation:us-east-1:REDACTED-ACCOUNT-ID:stack/CLIENT-Quicksight-Sta
 ## Usage
 
 ```
-delete-stack.sh
+./delete-stack.sh
 ```
 
 ## Contributing
