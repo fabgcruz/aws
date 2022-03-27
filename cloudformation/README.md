@@ -17,15 +17,15 @@ Sample of stacks.txt content:
 Now do you need to remove "StackId:" before run the script. You can run the commands:
 
 ````
-sed -i s/\"//g stacks.txt 
+sed s/\"//g stacks.txt 
 ````
 
 ````
-sed -i s/\,//g stacks.txt
+sed  s/\,//g stacks.txt
 ````
 
 ```
-sed -i s/\StackId://g stacks.txt
+sed s/\StackId://g stacks.txt
 ```
 
 After that, you can verify the file:
