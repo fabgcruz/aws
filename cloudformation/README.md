@@ -45,6 +45,14 @@ arn:aws:cloudformation:us-east-1:XXXXX:stack/STACK-NAME
 ./delete-stack.sh
 ```
 
+## Check
+
+After run the script delete-stack.sh you can check the status. For that use the command:
+
+```
+watch -n 60 'aws cloudformation list-stacks --region=us-east-1  --stack-status-filter DELETE_IN_PROGRESS | grep -i stackid > us-test.txt; cat us-test.txt | wc -l'
+```
+
 ## Contributing
 Pull requests are welcome! =D
 
