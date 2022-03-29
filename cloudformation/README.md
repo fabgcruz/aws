@@ -7,7 +7,7 @@ The delete-stack.sh is a simple script to delete all cloudformation stuck stacks
 For run the script do you need create a list of stacks and write to file, for that you can use:
 
 ```
-aws cloudformation list-stacks --region=[region] | grep -i stackid > stacks.txt
+aws cloudformation list-stacks --region=[region] aws cloudformation list-stacks --stack-status-filter DELETE_FAILED| grep -i stackid > stacks.txt
 ```
 
 Sample of stacks.txt content: 
