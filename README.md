@@ -1,2 +1,2 @@
 # AWS
-Some automations to make the day to day easier
+Some automations to make  day by day easier
